@@ -29,6 +29,7 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-    droptTableIfExists('user_saved')
-  droptTableIfExists('users')
+    return knex.schema
+    .dropTableIfExists('user_saved')
+    .dropTableIfExists('users')
 };
