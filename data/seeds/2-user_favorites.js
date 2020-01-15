@@ -3,7 +3,11 @@ exports.seed = function(knex) {
     {
       "user_id": "1",
       "city": "houston"
+    },
+    {
+      "user_id": "1",
+      "city": "tomball"
     }
   ]);
-;
+
 };
