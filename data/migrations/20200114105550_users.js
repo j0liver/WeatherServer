@@ -17,7 +17,7 @@ exports.up = function(knex) {
             .increments()
 
         tbl
-            .integer('user_Id')
+            .integer('user_id')
             .references('id')
             .inTable('users')
             .onDelete('CASCADE')
