@@ -44,3 +44,4 @@ async function updateProfile(id, changes){
     .update(changes)
   return findById(id[0])
 }
+
